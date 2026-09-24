@@ -1,0 +1,86 @@
+/* h1::before{
+    content: "*";
+}
+h1::after{
+    content: "*";
+} */
+
+h1{
+    position: relative;
+}
+
+h1::after{
+    position: absolute;
+    content: " ";
+    width: 8px;
+    height: 3px;
+    background-color: red;
+    top:50px;
+    left: 0px;
+    transition: width 1s ease;
+    
+}
+h1::first-letter{
+    font-size: 3rem;
+    color:blue;
+}
+
+.linee:hover{
+    box-shadow: 
+    -10px -20px 20px rgb(144, 28, 98),
+    10px 10px 20px blue;
+
+    transform: translateX(500px) scale(1.6) ;
+
+}
+h1:hover::after{
+    width:130px;
+}
+
+
+button {
+    width: 200px;
+    height: 100px;
+    /* margin: 200px; */
+    position: relative;
+    border-radius:10px;
+}
+
+button::before {
+    content: "This is a tooltip";
+
+    position: absolute;
+    bottom: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 180px;
+    height: 30px;
+    border-radius:10px;
+
+    background-color: black;
+    color: white;
+    padding: 10px;
+    opacity: 0;
+}
+
+button::after{
+    position:  absolute;
+    content: " ";
+    background-color: black;
+    height: 20px;
+    width:20px;
+    transform:rotate(45deg);
+    bottom:101px;
+    left:90px;
+    opacity:0;
+  
+}
+
+button:hover::before {
+    opacity: 1;
+}
+button:hover::after {
+    opacity: 1;
+}
+
+
