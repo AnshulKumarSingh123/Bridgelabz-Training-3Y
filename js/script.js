@@ -219,40 +219,40 @@
 //     id : 1,
 //     name : "raj",
 //     marks : 90,
-//     address : {
-//         city : "mathura",
-//         pincode : 281001
+// //     address : {
+// //         city : "mathura",
+// //         pincode : 281001
+// //     },
+// //     displayInfo: function(){
+// //         console.log(`id : ${this.id} name : ${this.name} marks : ${this.marks}`);
+// //     }
+// // }
+// let listofStudents = [
+//     {
+//         id : 1,
+//         name : "raj",
+//         marks : 90,
+//         gender : "male"
 //     },
-//     displayInfo: function(){
-//         console.log(`id : ${this.id} name : ${this.name} marks : ${this.marks}`);
+//     {
+//         id : 2,
+//         name : "priya",
+//         marks : 85,
+//         gender : "female"
+//     },
+//     {
+//         id : 3,
+//         name : "mohan",
+//         marks : 70,
+//         gender : "male"
+//     },
+//     {
+//         id : 4,
+//         name : "rohit",
+//         marks : 80,
+//         gender : "male"
 //     }
-// }
-let listofStudents = [
-    {
-        id : 1,
-        name : "raj",
-        marks : 90,
-        gender : "male"
-    },
-    {
-        id : 2,
-        name : "priya",
-        marks : 85,
-        gender : "female"
-    },
-    {
-        id : 3,
-        name : "mohan",
-        marks : 70,
-        gender : "male"
-    },
-    {
-        id : 4,
-        name : "rohit",
-        marks : 80,
-        gender : "male"
-    }
-];  
+// ];  
 
 
 // console.log(listofStudents);
@@ -264,43 +264,44 @@ let listofStudents = [
 // student.displayInfo();
 
 
-for(let i=0;i<listofStudents.length;i++){
-    let ans = `my id is ${listofStudents[i].id} and my name is ${listofStudents[i].name} and my marks are ${listofStudents[i].marks} and my gender is ${listofStudents[i].gender}`;
-    console.log(ans);
-}
+// for(let i=0;i<listofStudents.length;i++){
+//     let ans = `my id is ${listofStudents[i].id} and my name is ${listofStudents[i].name} and my marks are ${listofStudents[i].marks} and my gender is ${listofStudents[i].gender}`;
+//     console.log(ans);
+// 
 
-// for of loop
-for(let x of listofStudents){
-    let ans = `my id is ${x.id} and my name is ${x.name} and my marks are ${x.marks} and my gender is ${x.gender}`;
-    console.log(ans);
-}
-// for each loop
-listofStudents.forEach((x)=>{
-    let ans = `my id is ${x.id} and my name is ${x.name} and my marks are ${x.marks} and my gender is ${x.gender}`;
-    console.log(ans);
-});
-// print all the names of students in the list
-// ["rahul", "priya", "mohan", "rohit", "anshul"]
-let fun = (x) => {
-    return x.name;
-}
-let names = listofStudents.map(fun);
-console.log(names);
-
-// let studentNames = listofStudents.map(function(x){
-//     return x.name;
+// // for of loop
+// for(let x of listofStudents){
+//     let ans = `my id is ${x.id} and my name is ${x.name} and my marks are ${x.marks} and my gender is ${x.gender}`;
+//     console.log(ans);
+// }
+// // for each loop
+// listofStudents.forEach((x)=>{
+//     let ans = `my id is ${x.id} and my name is ${x.name} and my marks are ${x.marks} and my gender is ${x.gender}`;
+//     console.log(ans);
 // });
+// // print all the names of students in the list
+// // ["rahul", "priya", "mohan", "rohit", "anshul"]
+// let fun = (x) => {
+//     return x.name;
+// }
+// let names = listofStudents.map(fun);
+// console.log(names);
+
+// // let studentNames = listofStudents.map(function(x){
+// //     return x.name;
+// // });
+// // console.log(studentNames);
+
+// // let studentNames = listofStudents.map((x)=>{
+// //     return x.name;
+// // });
+// // console.log(studentNames);
+// let studentNames = listofStudents.map((x) => x.name);
 // console.log(studentNames);
 
-// let studentNames = listofStudents.map((x)=>{
-//     return x.name;
-// });
-// console.log(studentNames);
-let studentNames = listofStudents.map((x) => x.name);
-console.log(studentNames);
 
-
-
+console,log("start")
+console.log("end")
 
   
 

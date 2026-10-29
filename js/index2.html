@@ -1,20 +1,70 @@
-<!doctype html>
+!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <h1 id="heading">hello,world! understanding dom </h1>
-    <button id="btn">click me</button>
-    <button id="btn2">decrease</button>
-    <button id="reset">reset</button>
-    <div class = "box"></div>
-    <!-- <button onclick="generateHexColor()">Generate Hex Color</button> -->
-  </body>
-  <script src="script2.js"></script>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            margin: 30px;
+            border: 1px solid black;
+        }
 
+        .bg-red{
+            background-color: red;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .bg-blue{
+            background-color: blue;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .bg-green{
+            background-color: green;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <button id="redBtn">red</button>
+    <button id="blueBtn">blue</button>
+    <button id="greenBtn">green</button>
+</body>
+
+<script>
+    const boxE1 = document.querySelector('.box');
+    const redBtnE1 = document.querySelector('#redBtn');
+
+    redBtnE1.addEventListener("click",()=>{
+        boxE1.classList.add("bg-red");
+        boxE1.classList.remove("bg-blue");
+        boxE1.classList.remove("bg-green");
+    })
+
+    const blueBtnE1 = document.querySelector('#blueBtn');
+    const greenBtnE1 = document.querySelector('#greenBtn');
+
+    blueBtnE1.addEventListener("click",()=>{
+        boxE1.classList.remove("bg-red");
+        boxE1.classList.add("bg-blue");
+        boxE1.classList.remove("bg-green");
+    })
+
+    greenBtnE1.addEventListener("click",()=>{
+        boxE1.classList.remove("bg-red");
+        boxE1.classList.remove("bg-blue");
+        boxE1.classList.add("bg-green");
+      
+    })
+
+</script>
 </html>

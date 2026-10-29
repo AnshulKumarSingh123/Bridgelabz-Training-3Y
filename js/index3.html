@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+    </style>
+  </head>
+
+  <body>
+    <h1>Dom input</h1>
+    <input id ="inputname" type = "text" placeholder="name">
+    <button id ="btn"></button>
+
+    
+  </body>
+  <script>
+     const inputE1 = document.querySelector("#inputName");
+     const btnE1 =  document.querySelector("#btn");
+     btnE1.addEventListener("click",()=>{
+        let val = inputE1.value;
+        console.log(val);
+
+
+     })
+
+
+  </script>
+</html>
