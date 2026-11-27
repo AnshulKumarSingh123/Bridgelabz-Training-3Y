@@ -1,0 +1,10 @@
+{"timetable":[
+{"id":1,"day":"Monday","subject":"Mathematics","faculty":"Dr. Sharma","time":"09:00 - 10:00"},
+{"id":2,"day":"Monday","subject":"Physics","faculty":"Prof. Verma","time":"10:00 - 11:00"},
+{"id":3,"day":"Monday","subject":"Computer Science","faculty":"Dr. Gupta","time":"11:30 - 12:30"},
+{"id":4,"day":"Tuesday","subject":"Chemistry","faculty":"Dr. Singh","time":"09:00 - 10:00"},
+{"id":5,"day":"Tuesday","subject":"English","faculty":"Ms. Joshi","time":"10:00 - 11:00"},
+{"id":6,"day":"Wednesday","subject":"Data Structures","faculty":"Prof. Mehta","time":"09:00 - 10:30"},
+{"id":7,"day":"Thursday","subject":"Web Technology","faculty":"Dr. Rao","time":"10:00 - 11:00"},
+{"id":8,"day":"Friday","subject":"Database Systems","faculty":"Dr. Khan","time":"09:00 - 10:00"},
+{"id":9,"day":"Friday","subject":"Operating Systems","faculty":"Prof. Das","time":"11:00 - 12:00"}]}

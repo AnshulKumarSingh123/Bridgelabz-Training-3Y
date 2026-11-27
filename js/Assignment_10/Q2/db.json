@@ -1,0 +1,7 @@
+{"employees":[
+{"id":1,"name":"Amit Sharma","status":"active"},
+{"id":2,"name":"Priya Singh","status":"inactive"},
+{"id":3,"name":"Rahul Verma","status":"active"},
+{"id":4,"name":"Neha Gupta","status":"active"},
+{"id":5,"name":"Karan Mehta","status":"inactive"},
+{"id":6,"name":"Sneha Joshi","status":"active"}]}

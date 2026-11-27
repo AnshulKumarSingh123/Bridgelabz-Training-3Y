@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Q5 Team Directory</title>
+<link rel="stylesheet" href="../style.css"><style>.member{padding:6px 10px;margin:4px 0;border:1px solid #ddd;border-radius:6px}.manager{font-weight:bold}.dept-title{cursor:pointer}.name{cursor:pointer}.contact{font-size:13px;color:#555;margin-left:10px}.team{margin:0}</style></head><body>
+<header><h1>Team Directory</h1><button id="random">Select Random Employee</button></header>
+<main>
+<section class="dept"><h3 class="dept-title">Engineering</h3><button class="toggle">Collapse/Expand</button>
+<ul class="team">
+<li class="member manager" data-id="m1"><span class="name">Alice (Manager)</span><span class="contact">alice@corp.com</span></li>
+<li class="member" data-manager="m1"><span class="name">Bob</span><span class="contact">bob@corp.com</span></li>
+<li class="member" data-manager="m1"><span class="name">Carol</span><span class="contact">carol@corp.com</span></li>
+<li class="member" data-manager="m1"><span class="name">Dave</span><span class="contact">dave@corp.com</span></li></ul></section>
+<section class="dept"><h3 class="dept-title">Marketing</h3><button class="toggle">Collapse/Expand</button>
+<ul class="team">
+<li class="member manager" data-id="m2"><span class="name">Eve (Manager)</span><span class="contact">eve@corp.com</span></li>
+<li class="member" data-manager="m2"><span class="name">Frank</span><span class="contact">frank@corp.com</span></li>
+<li class="member" data-manager="m2"><span class="name">Grace</span><span class="contact">grace@corp.com</span></li></ul></section>
+</main>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script><script src="q5.js"></script></body></html>

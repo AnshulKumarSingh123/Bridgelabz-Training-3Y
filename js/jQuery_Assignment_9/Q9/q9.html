@@ -1,0 +1,20 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Q9 Multi-jQuery Widgets</title>
+<link rel="stylesheet" href="../style.css">
+<style>.slide{display:none;padding:30px;text-align:center;background:#e7f5ff;border-radius:8px}.active-widget{outline:3px solid #e8590c}
+#modal{display:none;position:fixed;top:30%;left:30%;background:#fff;padding:20px;border:2px solid #333;border-radius:8px;z-index:9}
+.tip{position:absolute;background:#333;color:#fff;padding:4px 8px;border-radius:4px;font-size:12px}</style></head><body>
+<header><h1>Dashboard</h1></header>
+<main>
+<section class="widget" id="carousel"><h3>Carousel (jQuery 1.12.4)</h3>
+<div class="slide">Slide 1</div><div class="slide">Slide 2</div><div class="slide">Slide 3</div></section>
+<section class="widget" id="notify"><h3>Notifications (jQuery 3.7.1)</h3>
+<button id="openModal" title="Opens a modal">Show Notification</button></section>
+<section class="widget" id="info"><h3>Info Widget</h3><span class="hoverme" data-tip="Tooltip via jQuery 3">Hover me</span></section>
+<div id="modal"><p>You have a new notification!</p><button id="closeModal">Close</button></div>
+</main>
+<!-- Version 1 loaded first, then released with noConflict(true) so the next version can load -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>var $jq1 = jQuery.noConflict(true);</script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>var $jq3 = jQuery.noConflict(true);</script>
+<script src="q9.js"></script></body></html>

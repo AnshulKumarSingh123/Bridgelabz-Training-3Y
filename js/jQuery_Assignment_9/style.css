@@ -1,0 +1,11 @@
+/* Shared styles for all questions */
+body{font-family:Segoe UI,Arial,sans-serif;max-width:760px;margin:0 auto;padding:20px;background:#f4f6fb;color:#222}
+header,section,footer{background:#fff;border-radius:10px;padding:16px;margin:14px 0;box-shadow:0 1px 4px #0002}
+button{padding:7px 14px;margin:4px 2px;border:0;border-radius:6px;background:#3b5bdb;color:#fff;cursor:pointer}
+button:hover{background:#2f49b0}
+input{padding:7px;border:2px solid #ccc;border-radius:6px;margin:4px 0}
+ul{list-style:none;padding:0}
+.card{border:1px solid #ddd;border-radius:8px;padding:10px;margin:8px 0;cursor:pointer}
+.hl{background:#fff3bf!important}.selected{border:2px solid #e8590c;background:#ffe8cc}
+.msg{padding:8px;border-radius:6px;margin-top:8px}.ok{background:#d3f9d8;color:#2b8a3e}.err{background:#ffe3e3;color:#c92a2a}
+.hidden-detail,.contact,.answer{display:none}

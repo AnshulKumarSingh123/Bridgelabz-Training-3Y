@@ -1,0 +1,12 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Q2 Employee Dashboard</title>
+<link rel="stylesheet" href="../style.css"><style>
+table{width:100%;border-collapse:collapse}td,th{padding:10px;border-bottom:1px solid #eee;text-align:left}
+.sw{position:relative;width:46px;height:24px;display:inline-block}.sw input{display:none}
+.sl{position:absolute;inset:0;background:#adb5bd;border-radius:24px;cursor:pointer;transition:.2s}
+.sl:before{content:"";position:absolute;width:18px;height:18px;left:3px;top:3px;background:#fff;border-radius:50%;transition:.2s}
+input:checked+.sl{background:#2f9e44}input:checked+.sl:before{transform:translateX(22px)}
+.badge{font-weight:bold}.active{color:#2f9e44}.inactive{color:#c92a2a}</style></head><body>
+<header><h1>Employee Status Dashboard</h1></header>
+<main><section><div id="error"></div>
+<table><thead><tr><th>ID</th><th>Name</th><th>Status</th><th>Toggle</th></tr></thead><tbody id="rows"></tbody></table></section></main>
+<script src="q2.js"></script></body></html>

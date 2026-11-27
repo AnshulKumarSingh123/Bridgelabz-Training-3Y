@@ -1,0 +1,7 @@
+{"products":[
+{"id":1,"name":"Laptop","price":55000,"image":"https://picsum.photos/seed/laptop/60"},
+{"id":2,"name":"Smartphone","price":22000,"image":"https://picsum.photos/seed/phone/60"},
+{"id":3,"name":"Headphones","price":2500,"image":"https://picsum.photos/seed/headphone/60"},
+{"id":4,"name":"Smart Watch","price":4500,"image":"https://picsum.photos/seed/watch/60"},
+{"id":5,"name":"Laptop Bag","price":1200,"image":"https://picsum.photos/seed/bag/60"},
+{"id":6,"name":"Keyboard","price":1500,"image":"https://picsum.photos/seed/keyboard/60"}]}

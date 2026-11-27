@@ -1,0 +1,7 @@
+{"users":[
+{"id":1,"name":"Amit"},{"id":2,"name":"Priya"},{"id":3,"name":"Rahul"},{"id":4,"name":"Neha"},{"id":5,"name":"Karan"}],
+"orders":[
+{"id":1,"userId":1,"total":1200},{"id":2,"userId":2,"total":560},{"id":3,"userId":3,"total":8900},
+{"id":4,"userId":1,"total":300},{"id":5,"userId":4,"total":2100},{"id":6,"userId":5,"total":750}],
+"products":[
+{"id":1,"name":"Laptop"},{"id":2,"name":"Phone"},{"id":3,"name":"Mouse"},{"id":4,"name":"Monitor"},{"id":5,"name":"Keyboard"}]}

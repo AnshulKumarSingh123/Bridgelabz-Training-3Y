@@ -1,0 +1,14 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Q6 Event Subscription Panel</title>
+<link rel="stylesheet" href="../style.css"><style>li.topic{display:flex;justify-content:space-between;align-items:center;padding:8px;border-bottom:1px solid #eee}</style></head><body>
+<header><h1>Subscription Panel</h1><p>Notifications: <strong id="status">Disabled</strong></p></header>
+<main><section>
+<button id="subscribe">Subscribe</button><button id="unsubscribe">Unsubscribe</button>
+<ul id="topics">
+<li class="topic"><span>Sports</span><span><button class="sub">Follow</button><button class="remove">Remove</button></span></li>
+<li class="topic"><span>Technology</span><span><button class="sub">Follow</button><button class="remove">Remove</button></span></li>
+<li class="topic"><span>Music</span><span><button class="sub">Follow</button><button class="remove">Remove</button></span></li>
+<li class="topic"><span>Movies</span><span><button class="sub">Follow</button><button class="remove">Remove</button></span></li>
+<li class="topic"><span>Travel</span><span><button class="sub">Follow</button><button class="remove">Remove</button></span></li></ul>
+<input id="newTopic" placeholder="New topic"><button id="add">Add Topic</button>
+<div id="messages"></div></section></main>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script><script src="q6.js"></script></body></html>
