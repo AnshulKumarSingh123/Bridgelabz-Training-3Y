@@ -15,14 +15,14 @@
 class Bank {
     #balance = 5000;
 
-    deposit(amount) {
+    commondeposit(amount) {
         if (amount > 0) {
             this.#balance += amount;
             console.log("Balance is :- " + this.#balance);
         }
     }
 
-    withdraw(amount) {
+    commonwithdraw(amount) {
         if (amount > 0 && amount <= this.#balance) {
             this.#balance -= amount;
             console.log("Balance is :- " + this.#balance);
@@ -44,11 +44,11 @@ do {
     switch(choice) {
         case 1:
             let depositAmount = Number(prompt("Enter deposit amount:"));
-            bank.deposit(depositAmount);
+            bank.commondeposit(depositAmount);
             break;
         case 2:
             let withdrawAmount = Number(prompt("Enter withdraw amount:"));
-            bank.withdraw(withdrawAmount);
+            bank.commonwithdraw(withdrawAmount);
             break;
         case 3:
             console.log("Balance is :- " + bank.getBalance());
